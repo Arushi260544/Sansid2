@@ -5,14 +5,13 @@ import { Blog, Doctor, Home, Pages, Services, Shop } from "./Menu";
 const MobileMenu = ({ mobileTrigger, setMobileTrigger }) => {
   const [activeMenu, setActiveMenu] = useState("");
   const activeMenuSet = (value) =>
-      setActiveMenu(activeMenu === value ? "" : value),
+    setActiveMenu(activeMenu === value ? "" : value),
     activeLi = (value) =>
       value === activeMenu ? { display: "block" } : { display: "none" };
   return (
     <div
-      className={`slide-panel mobile-slide-panel ${
-        mobileTrigger ? "show-panel" : ""
-      }`}
+      className={`slide-panel mobile-slide-panel ${mobileTrigger ? "show-panel" : ""
+        }`}
     >
       <div className="panel-overlay" onClick={() => setMobileTrigger()} />
       <div className="panel-inner">
@@ -39,7 +38,7 @@ const MobileMenu = ({ mobileTrigger, setMobileTrigger }) => {
               <Link href="/about">About</Link>
             </li>
 
-            <li>
+            {/* <li>
               <a href="#">
                 Doctors
                 <span
@@ -66,10 +65,10 @@ const MobileMenu = ({ mobileTrigger, setMobileTrigger }) => {
               <ul className="sub-menu" style={activeLi("Blog")}>
                 <Blog />
               </ul>
-            </li>
+            </li> */}
             <li>
               <a href="#">
-                Shop
+                Product
                 <span
                   className="dd-trigger"
                   onClick={() => activeMenuSet("shop")}
