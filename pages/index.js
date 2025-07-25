@@ -5,6 +5,7 @@ import { useState } from "react";
 import Slider from "react-slick";
 import VideoPopup from "../src/components/VideoPopup";
 import Layouts from "../src/layouts/Layouts";
+import { PiCowBold } from 'react-icons/pi';
 import {
   heroSlider,
   partnerSlider,
@@ -128,21 +129,21 @@ const Home = () => {
                       className="animate-float-bob-x"
                       src="/assets/img/tile-gallery/01.jpg"
                       alt="Image"
-                      width={500}
-                      height={300}
+                      width={316}
+                      height={385}
                     />
                   </div>
                   <div
                     className="image-two wow fadeInDown"
                     data-wow-delay="0.4s"
                   >
-                    <Image src="/assets/img/tile-gallery/02.jpg" alt="Image" width={500} height={300} />
+                    <Image src="/assets/img/tile-gallery/02.jpg" alt="Image" width={370} height={513} />
                   </div>
                   <div
                     className="image-three wow fadeInUp"
                     data-wow-delay="0.5s"
                   >
-                    <Image src="/assets/img/tile-gallery/03.jpg" alt="Image" width={500} height={300} />
+                    <Image src="/assets/img/tile-gallery/03.jpg" alt="Image" width={316} height={247} />
                   </div>
                 </div>
               </div>
@@ -167,9 +168,10 @@ const Home = () => {
                         className="simple-icon mt-40 wow fadeInUp"
                         data-wow-delay="0.3s"
                       >
-                        <div className="icon">
-                          <i className="flaticon-dental-care-1" />
-                        </div>
+                        <div className="icon" >
+                          <PiCowBold />                        </div>
+
+
                         <h4 className="title">Backed by veterinarians</h4>
                         <p>
                           Trusted and recommended by leading vets to ensure
@@ -182,10 +184,9 @@ const Home = () => {
                         className="simple-icon mt-40 wow fadeInUp"
                         data-wow-delay="0.4s"
                       >
-                        <div className="icon">
-                          <i className="flaticon-dental-care-2" />
-                        </div>
-                        <h4 className="title">
+                        <div className="icon" >
+                          <PiCowBold />                        </div>
+                        <h4 className="title ">
                           GMP-certified & quality tested
                         </h4>
                         <p>
@@ -220,9 +221,8 @@ const Home = () => {
                   className="iconic-box-two mt-30 wow fadeInUp"
                   data-wow-delay="0.3s"
                 >
-                  <div className="icon">
-                    <i className="flaticon-tooth-1" />
-                  </div>
+                  <div className="icon" >
+                          <PiCowBold />                        </div>
                   <h4 className="title">
                     <Link href="/">Companion Animal Medicines</Link>
                   </h4>
@@ -242,9 +242,8 @@ const Home = () => {
                   className="iconic-box-two mt-30 wow fadeInUp"
                   data-wow-delay="0.4s"
                 >
-                  <div className="icon">
-                    <i className="flaticon-tooth-2" />
-                  </div>
+                  <div className="icon" >
+                          <PiCowBold />                        </div>
                   <h4 className="title">
                     <Link href="/">Livestock Health Solutions</Link>
                   </h4>
@@ -264,9 +263,8 @@ const Home = () => {
                   className="iconic-box-two mt-30 wow fadeInUp"
                   data-wow-delay="0.5s"
                 >
-                  <div className="icon">
-                    <i className="flaticon-tooth-3" />
-                  </div>
+                  <div className="icon" >
+                          <PiCowBold />                        </div>
                   <h4 className="title">
                     <Link href="/">Nutritional Supplements</Link>
                   </h4>
@@ -286,9 +284,8 @@ const Home = () => {
                   className="iconic-box-two mt-30 wow fadeInUp"
                   data-wow-delay="0.6s"
                 >
-                  <div className="icon">
-                    <i className="flaticon-tooth-4" />
-                  </div>
+                  <div className="icon" >
+                          <PiCowBold />                        </div>
                   <h4 className="title">
                     <Link href="/">Topical & External Applications</Link>
                   </h4>
@@ -685,7 +682,7 @@ const Home = () => {
                     <div className="doctor-photo">
                       <Image src="/assets/img/doctors/15.jpg" alt="Image" width={500} height={300} />
 
-                      
+
                     </div>
                     <div className="doctor-information">
                       <h5 className="name">
@@ -705,7 +702,7 @@ const Home = () => {
                     <div className="doctor-photo">
                       <Image src="/assets/img/doctors/16.jpg" alt="Image" width={500} height={300} />
 
-                      
+
                     </div>
                     <div className="doctor-information">
                       <h5 className="name">
@@ -723,7 +720,7 @@ const Home = () => {
                     <div className="doctor-photo">
                       <Image src="/assets/img/doctors/17.jpg" alt="Image" width={500} height={300} />
 
-                     
+
                     </div>
                     <div className="doctor-information">
                       <h5 className="name">
